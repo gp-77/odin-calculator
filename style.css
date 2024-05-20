@@ -1,0 +1,38 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.digit {
+  font-size: 64px;
+}
+
+.operando {
+  font-size: 72px;
+}
+
+.key {
+  font-size: 68px;
+  border: 2px solid;
+  border-color: red;
+  margin-right: 12px;
+  padding: 12px;
+}
+
+.display {
+  font-size: 102px;
+  margin-bottom: 32px;
+}
